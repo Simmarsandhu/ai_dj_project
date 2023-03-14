@@ -1,0 +1,24 @@
+body{
+    background-image: url("pngtree-note.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+
+}
+
+
+
+
+.head1{
+    margin: 0px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Silkscreen', cursive;
+    background-color: #4578B1;
+}
+canvas{
+    border: 5px dotted black;
+    border-radius: 15px 50px 30px;
+    margin-top: 50px;
+}
