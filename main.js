@@ -31,19 +31,21 @@ function draw(){
     if(left_score>0.2){
     circle(leftwristX,leftwristY,30);
     song2.stop();
-     }
-     if(right_score>0.2){
-        circle(rightwristX,rightwristY,30);
-        song1.stop();
-         }
     if(left_status==false){
         song1.play();
         document.getElementById("song_name").innerHTML="harry potter";
     }
-    if(right_status==false){
-        song2.play();
-        document.getElementById("song_name").innerHTML="peter pan";
-    }
+     }
+    if(right_score>0.2){
+        circle(rightwristX,rightwristY,30);
+        song1.stop();
+        if(right_status==false){
+            song2.play();
+            document.getElementById("song_name").innerHTML="peter pan";
+        }
+         }
+    
+    
     
 }
 
